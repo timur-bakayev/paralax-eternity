@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.BG{
+	width: 105vw;
+	height: 105vh;
+	overflow:hidden ;
+	position: fixed;
+	top: -5vh;
+	left: -5vw;
+
+}
+
+.BG img {
+	width: 100%;
+
+}
+
+.text {
+	z-index: 2;
+	position: relative;
+	display:flex ;
+	justify-content:center ;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+
+}
+
+.text h1{
+	font-size: 72px;
+	color: #fffcf5;
+	font-weight: normal;
+
+}
+
+.overlay{
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	z-index: 1;
+}
